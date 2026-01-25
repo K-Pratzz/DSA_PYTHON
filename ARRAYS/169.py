@@ -21,6 +21,7 @@ def majority(nums):
 
 
 #if it doesnt exist then 
+
 if nums.count(majority(nums))>len(nums)//2:
     print(majority(nums))
 else:
